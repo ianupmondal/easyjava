@@ -19,7 +19,7 @@ public class SpringConfig {
 		MongoURI mongoURI = new MongoURI("mongodb://heroku_tdtlxg32:abi3j9ono9ihsih7unska4a8q2@ds051788.mlab.com:51788/heroku_tdtlxg32");
         DB db = mongoURI.connectDB();
         db.authenticate(mongoURI.getUsername(), mongoURI.getPassword());
-    
+        //db.addUser(mongoURI.getUsername(), mongoURI.getPassword());
         return db;
 	}
 
