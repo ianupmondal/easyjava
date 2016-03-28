@@ -1,2 +1,5 @@
 org/easyjava/EasyjavaApplication.class
+org/easyjava/configuration/SpringConfig.class
+org/easyjava/model/Topic.class
 org/easyjava/controller/MainController.class
+org/easyjava/repository/TopicRepository.class
