@@ -33,10 +33,12 @@ public class MainController {
 				e.printStackTrace();
 			}
 	        DB db = client.getDB(uri.getDatabase());
-	        DBCollection topic = db.getCollection("Topic");
+	        DBCollection collection = db.getCollection("Topic");
 	        DBObject dbObject = new BasicDBObject();
-	        dbObject.put("title", "Hashmap");
-	        topic.insert(dbObject);
+	        Topic topic = new Topic("HashMap", "HASHMAP IS MY FAV COLLECTION");
+	        topic.setId("123");
+	        dbObject.put("title", topic);
+	        collection.insert(dbObject);
 		model.addAttribute("desc",dbObject.toString());
       return "index";
     }
