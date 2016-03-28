@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: org.easyjava.EasyjavaApplicationTests
+Test set: org.easyjava.EasyJavaApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.482 sec - in org.easyjava.EasyjavaApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.273 sec - in org.easyjava.EasyJavaApplicationTests
