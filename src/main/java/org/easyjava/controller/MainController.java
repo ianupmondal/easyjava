@@ -1,5 +1,6 @@
 package org.easyjava.controller;
 
+<<<<<<< HEAD
 import java.net.UnknownHostException;
 
 import org.easyjava.model.Topic;
@@ -42,4 +43,16 @@ public class MainController {
 		model.addAttribute("desc",dbObject.toString());
       return "index";
     }
+=======
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class MainController {
+
+	@RequestMapping("/home")
+	public String getLandingScreen(){
+		return "index";
+	}
+>>>>>>> 8a14f617d4fe8dfccaeb719a97bb0b945848b040
 }
